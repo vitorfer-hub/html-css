@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+
+    <h1>reproduzindo audio</h1>
+    <p>introduzindo audio</p>
+    <audio preload="metadata" controls>
+        <source src="midia/dnaxpride.mp3" type="audio/mpeg"> <!--mpeg para mp3-->
+        <source src="midia/dnaxpride.ogg" type="audio/ogg">
+        <source src="midia/dnaxpride.wav" type="audio/wav">
+        <p>infelizmente seu navegador nao consegue reproduzir audio. <a href="midia/dnaxpride.mp3">clique aqui para baixar o arquivo mp3</a></p>
+    </audio>
+    <p><a href="midia/dnaxpride.mp3" download="dnaxpride.mp3" type="audio/mpeg" target="_blank">baixar musica</a></p>
+</body>
+</html>

@@ -1,0 +1,22 @@
+@charset "UTF-8";
+body {
+    background-color: rgba(0, 0, 0, 0.541);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+}
+
+h1#principal {
+    text-align: center;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+}
+
+.basico {
+    color: aqua;
+}
